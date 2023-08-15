@@ -181,7 +181,7 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   /* Mobile view */
 
   .text1 {
@@ -206,7 +206,7 @@ body {
   }
 }
 
-@media (min-width: 769px) and (max-width: 1200px) {
+@media (min-width: 481px) and (max-width: 768px) {
   /* Laptop view */
   .text1 {
     font-size: 80px;
@@ -229,7 +229,7 @@ body {
   }
 }
 
-@media (min-width: 1201px) {
+@media (min-width: 769px) {
   /* Desktop view */
   .text1 {
     font-size: 100px;
