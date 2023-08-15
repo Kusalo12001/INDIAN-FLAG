@@ -21,11 +21,7 @@ body {
   line-height: 15px;
   margin: 20px;
 }
-.audio1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .year {
   color: blue;
@@ -34,6 +30,11 @@ body {
 .text3 {
   color: #ff9933;
   margin-top: 0px;
+}
+.audio1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .wrapper {
