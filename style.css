@@ -21,7 +21,13 @@ body {
   line-height: 15px;
   margin: 20px;
 }
-
+.audio1 {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  /*padding: 0px;
+  margin: 0px;*/
+}
 
 .year {
   color: blue;
@@ -30,11 +36,6 @@ body {
 .text3 {
   color: #ff9933;
   margin-top: 0px;
-}
-.audio1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .wrapper {
@@ -177,5 +178,75 @@ body {
   }
   100% {
     background-position: 800px 0px, 800px 0px, 800px 0px, 800px 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Mobile view */
+
+  .text1 {
+    font-size: 43px;
+    justify-content: center;
+  }
+  .text2 {
+    font-size: 43px;
+    justify-content: center;
+  }
+  .year {
+    font-size: 43px;
+    justify-content: center;
+  }
+  .text3 {
+    font-size: 43px;
+    justify-content: center;
+  }
+  .audio1 {
+    font-size: 80px;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  /* Laptop view */
+  .text1 {
+    font-size: 80px;
+    justify-content: center;
+  }
+  .text2 {
+    font-size: 80px;
+    justify-content: center;
+  }
+  .year {
+    font-size: 80px;
+    justify-content: center;
+  }
+  .text3 {
+    font-size: 70px;
+    justify-content: center;
+  }
+  .audio1 {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 1201px) {
+  /* Desktop view */
+  .text1 {
+    font-size: 100px;
+    margin-bottom: 40px;
+  }
+  .text2 {
+    font-size: 100px;
+    margin: 40px;
+  }
+  .year {
+    font-size: 100px;
+    margin: 40px;
+  }
+  .text3 {
+    font-size: 100px;
+  }
+  .audio1 {
+    font-size: 10px;
   }
 }
